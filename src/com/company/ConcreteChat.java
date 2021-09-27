@@ -14,6 +14,7 @@ public class ConcreteChat implements Chat{
 
     public void removeMessageAdmin(String message) {
         this.messages.remove(message);
+        notifyAllUser();
     }
 
     @Override

@@ -5,7 +5,6 @@ public class Main {
     public static void main(String[] args) {
         ConcreteChat telegramChat = new ConcreteChat();
 
-
         telegramChat.addMessageAdmin("Java developer course");
         telegramChat.addMessageAdmin("Python developer course");
 
@@ -15,6 +14,5 @@ public class Main {
 
         telegramChat.addMessageAdmin("C# developer course");
         telegramChat.removeMessageAdmin("Python developer course");
-
     }
 }
